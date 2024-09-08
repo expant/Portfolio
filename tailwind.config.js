@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{vue,js}",
   ],
   theme: {
+    colors: {
+      'body': '#212121',
+    },
+    fontFamily: {
+      main: ['"Playfair Display"'],
+    },
     extend: {},
   },
   plugins: [],

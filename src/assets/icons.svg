@@ -1,0 +1,22 @@
+<svg
+  display="none" 
+  xmlns="http://www.w3.org/2000/svg">
+  <symbol id="light" viewBox="0 0 24 24">
+    <g>
+      <path d="M18.0002 12.0002C18.0002 8.68654 15.3139 6.00024 12.0002 6.00024C8.68647 6.00024 6.00018 8.68654 6.00018 12.0002C6.00018 15.314 8.68647 18.0002 12.0002 18.0002C15.3139 18.0002 18.0002 15.314 18.0002 12.0002Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M12 2V1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M2 12H1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M22.9999 12H21.9999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M19.9999 4L18.9999 5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M4.00006 4L5.00006 5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M19.9999 20L18.9999 19" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M4.00006 20L5.00006 19" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M12 23V22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </symbol>
+  <symbol id="dark" viewBox="0 0 21 24">
+    <g>
+      <path d="M11.7488 24C15.3727 24 18.6824 22.316 20.8751 19.5566C21.1995 19.1484 20.8458 18.5521 20.3445 18.6496C14.6443 19.7584 9.40973 15.2945 9.40973 9.41738C9.40973 6.03197 11.1841 2.91886 14.0679 1.24266C14.5124 0.984281 14.4006 0.295922 13.8955 0.200625C13.1874 0.0672624 12.4688 0.000109516 11.7488 0C5.2636 0 0 5.3677 0 12C0 18.6239 5.25534 24 11.7488 24Z"/>
+    </g>
+  </symbol>
+</svg>
