@@ -1,5 +1,6 @@
 <script setup>
 import BaseThemeSwitcher from '../BaseThemeSwitcher.vue';
+import { state } from '@/state.js';
 
 const content = {
   name: 'Elagin Anton',
@@ -15,7 +16,7 @@ const content = {
         src="@/assets/avatar.png"
         alt="Avatar"
       >
-      <h1 class="relative uppercase text-6xl text-body">
+      <h1 :class="`relative uppercase text-6xl ${state.theme === 'light' ? 'text-[#212121]' : 'text-[#909090]'}`">
         {{ content.name }}
         <div class="opacity-20 absolute bottom-[-42px]">{{ content.name }}</div>
         <div class="opacity-10 absolute bottom-[-84px]">{{ content.name }}</div>

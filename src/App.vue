@@ -1,10 +1,15 @@
 <script setup>
 import TheHeader from './components/views/TheHeader.vue';
+import { state } from '@/state.js';
+
 </script>
 
 <template>
-  <div class="p-[40px]">
-    <TheHeader />
+  <div :class="`h-screen w-full ${state.theme === 'light' ? 'bg-white' : 'bg-[#212121]'}`">
+    <div class="p-[40px]">
+      <TheHeader />
+      
+    </div>
   </div>
 </template>
 
