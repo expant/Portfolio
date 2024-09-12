@@ -7,12 +7,12 @@ const animateSwitch = (theme) => {
   if (theme === 'dark') {
     gsap.fromTo('.switcher', 
       { x: 0 },
-      { x: 36, duration: 0.3 }
+      { x: 38, duration: 0.3 }
     );
     return;
   }
   gsap.fromTo('.switcher', 
-    { x: 36 },
+    { x: 38 },
     { x: 0, duration: 0.3 }
   );
  
@@ -50,7 +50,7 @@ const iconState = {
   >
     <div 
       :class="[
-        'switcher absolute left-[1px] top-[1px] flex justify-center items-center w-[40px] h-[36px] rounded-[20px]', 
+        'switcher absolute left-[1px] top-[1px] flex justify-center items-center w-[38px] h-[36px] rounded-[20px]', 
         state.theme === 'light' ? 'bg-[#212121]' : 'bg-indigo-900',
       ]"
     >

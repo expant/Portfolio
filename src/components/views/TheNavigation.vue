@@ -2,7 +2,7 @@
 import { state } from '@/state.js';
 import { ref } from 'vue';
 
-const nav = ['Contact me', 'Projects', 'About'];
+const nav = ['About', 'Projects', 'Contact me'];
 
 const lightStyles = 'text-[#212121] hover:text-white hover:bg-[rgb(33,33,33)]';
 const darkStyles = 'text-white hover:text-[#212121] hover:bg-white';
