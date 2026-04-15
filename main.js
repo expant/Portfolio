@@ -5,6 +5,7 @@ import follower from './src/modules/follower';
 import textNodes from './src/modules/textNodes';
 import preloader from './src/modules/preloader';
 import projectGlitch from './src/modules/projectGlitch';
+import projectDetails from './src/modules/projectDetails';
 
 document.addEventListener('DOMContentLoaded', () => {
 	preloader();
@@ -13,4 +14,5 @@ document.addEventListener('DOMContentLoaded', () => {
 	follower();
 	textNodes();
 	projectGlitch();
+	projectDetails();
 });
