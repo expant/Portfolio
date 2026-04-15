@@ -109,6 +109,11 @@ const handleGlitchEnter = (element, clones) => {
 	gsap.killTweensOf(element);
 	gsap.killTweensOf(clones);
 
+	gsap.set(clones, {
+		opacity: 0,
+		color: (i) => (i === 0 ? '#00FFFF' : '#FF00FF'),
+	});
+
 	const mainTl = animateGlitch(element, clones);
 
 	gsap.to(
